@@ -30,16 +30,6 @@ if __name__ == "__main__":
         with open(f'{orbit["number"]}/log.html', "r") as fh:
             all_logs += fh.read()
 
-    # analyse_orbit(orbits[0])
-
-    # with open(f'{orbits[0]["number"]}/log.html', 'r') as fh:
-    #     all_logs += fh.read()
-
-    # for i in range(5):
-    #     analyse_orbit(orbits[i])
-    #     with open(f'{orbits[i]["number"]}/log.html', 'r') as fh:
-    #         all_logs += fh.read()
-
     with open("app.html", "w") as fh:
         html = soup(final_output_template.format(all_logs), features="html.parser")
         fh.write(html.prettify())

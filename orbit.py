@@ -6,8 +6,6 @@ from analyse_text import analyse as analyse_text
 from helpers import format_date_string, format_orbit_notes, get_traceback
 from log import get_logger
 
-HERE = pathlib.Path(__file__).parent
-
 
 def analyse_orbit(orbit: dict) -> None:
     """Analyses the orbit data and logs it to the correct file"""
@@ -15,10 +13,8 @@ def analyse_orbit(orbit: dict) -> None:
     directory = pathlib.Path(str(orbit["number"]))
     outpath = directory.joinpath("log.html")
 
-    if os.path.exists(directory):
-        return  # Just to save us having to re-fetch good data
-
-    os.makedirs(directory)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
 
     with open(outpath, "w") as fh:
         date_string = format_date_string(orbit["start"], orbit["finish"])
