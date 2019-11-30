@@ -15,4 +15,4 @@ The output is partly human-readable, partly machine-readable, studded throughout
 
 The program is only guaranteed to run on Python 3.7.x. Running it locally will take some time because of all of the network requests involved, and I have not implemented any rate limiting so please be respectful of the services involved. In addition to installing everything that's in the requirements file you will also need to run `python -m spacy download en_core_web_sm` before the program will work.
 
-![Imaging Science Subsystem 2017-04-29T00:00:00.000–2017-05-06T00:00:00.000](272/ISS.gif)
+![Imaging Science Subsystem 2017-04-29T00:00:00.000–2017-05-06T00:00:00.000](282/ISS.gif)
