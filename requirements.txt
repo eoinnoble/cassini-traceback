@@ -7,125 +7,117 @@
 aiohttp==3.6.2
     # via -r requirements.in
 async-timeout==3.0.1
-    # via
-    #   -r requirements.in
-    #   aiohttp
+    # via aiohttp
 attrs==19.3.0
-    # via
-    #   -r requirements.in
-    #   aiohttp
+    # via aiohttp
 beautifulsoup4==4.8.1
     # via
     #   -r requirements.in
     #   wikipedia
     #   wiktionaryparser
+black==21.11b1
+    # via -r requirements.in
 blis==0.4.1
     # via
-    #   -r requirements.in
     #   spacy
     #   thinc
 catalogue==0.0.8
-    # via
-    #   -r requirements.in
-    #   spacy
+    # via spacy
 certifi==2019.11.28
-    # via
-    #   -r requirements.in
-    #   requests
+    # via requests
 chardet==3.0.4
     # via
-    #   -r requirements.in
     #   aiohttp
     #   requests
+click==8.0.3
+    # via
+    #   black
+    #   nltk
 cymem==2.0.3
     # via
-    #   -r requirements.in
     #   preshed
     #   spacy
     #   thinc
 idna==2.8
     # via
-    #   -r requirements.in
     #   requests
     #   yarl
 imageio==2.6.1
     # via -r requirements.in
-importlib-metadata==0.23
-    # via -r requirements.in
-more-itertools==7.2.0
-    # via
-    #   -r requirements.in
-    #   zipp
+joblib==1.1.0
+    # via nltk
 multidict==4.6.1
     # via
-    #   -r requirements.in
     #   aiohttp
     #   yarl
 murmurhash==1.0.2
     # via
-    #   -r requirements.in
     #   preshed
     #   spacy
     #   thinc
-nltk==3.4.5
+mypy==0.910
+    # via -r requirements.in
+mypy-extensions==0.4.3
+    # via
+    #   black
+    #   mypy
+nltk==3.6.5
     # via -r requirements.in
 numpy==1.17.4
     # via
-    #   -r requirements.in
     #   blis
     #   imageio
     #   spacy
     #   thinc
+pathspec==0.9.0
+    # via black
 pillow==7.1.2
-    # via
-    #   -r requirements.in
-    #   imageio
+    # via imageio
 plac==1.1.3
     # via
-    #   -r requirements.in
     #   spacy
     #   thinc
+platformdirs==2.4.0
+    # via black
 preshed==3.0.2
     # via
-    #   -r requirements.in
     #   spacy
     #   thinc
+regex==2021.11.10
+    # via
+    #   black
+    #   nltk
 requests==2.22.0
     # via
-    #   -r requirements.in
     #   spacy
     #   wikipedia
     #   wiktionaryparser
-six==1.13.0
-    # via
-    #   -r requirements.in
-    #   nltk
 soupsieve==1.9.5
-    # via
-    #   -r requirements.in
-    #   beautifulsoup4
+    # via beautifulsoup4
 spacy==2.2.3
     # via -r requirements.in
 srsly==0.2.0
     # via
-    #   -r requirements.in
     #   spacy
     #   thinc
 thinc==7.3.1
-    # via
-    #   -r requirements.in
-    #   spacy
+    # via spacy
+toml==0.10.2
+    # via mypy
+tomli==1.2.2
+    # via black
 tqdm==4.39.0
     # via
-    #   -r requirements.in
+    #   nltk
     #   thinc
-urllib3==1.25.7
+typing-extensions==4.0.0
     # via
-    #   -r requirements.in
-    #   requests
+    #   black
+    #   mypy
+urllib3==1.25.7
+    # via requests
 wasabi==0.4.0
     # via
-    #   -r requirements.in
     #   spacy
     #   thinc
 wikipedia==1.4.0
@@ -133,13 +125,7 @@ wikipedia==1.4.0
 wiktionaryparser==0.0.97
     # via -r requirements.in
 yarl==1.4.1
-    # via
-    #   -r requirements.in
-    #   aiohttp
-zipp==0.6.0
-    # via
-    #   -r requirements.in
-    #   importlib-metadata
+    # via aiohttp
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
