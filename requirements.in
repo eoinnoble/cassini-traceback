@@ -1,0 +1,9 @@
+aiohttp
+beautifulsoup4
+black
+imageio
+mypy
+nltk
+spacy
+wikipedia
+wiktionaryparser
