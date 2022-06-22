@@ -79,7 +79,7 @@ mypy-extensions==0.4.3
     #   mypy
 nltk==3.6.6
     # via -r requirements.in
-numpy==1.21.4
+numpy==1.22.0
     # via
     #   blis
     #   imageio
