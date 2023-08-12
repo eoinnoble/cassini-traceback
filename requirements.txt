@@ -56,7 +56,7 @@ imageio==2.13.0
     # via -r requirements.in
 jinja2==3.0.3
     # via spacy
-joblib==1.1.0
+joblib==1.2.0
     # via nltk
 langcodes==3.3.0
     # via spacy
